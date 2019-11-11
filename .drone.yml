@@ -31,8 +31,3 @@ steps:
         - cd /projects/zhz
         - docker-compose pull
         - docker-compose up -d --force-recreate
-
-volumes:
-  - name: cache
-    host:
-      path: /tmp/cache
