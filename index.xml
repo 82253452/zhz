@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>智慧站</title>
+    <link>https://zhihuizhan.net/</link>
+    <description>Recent content on 智慧站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://zhihuizhan.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://zhihuizhan.net/my-first-post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhihuizhan.net/my-first-post/</guid>
+      <description>123123123123 123123 123123 123 12 3 123 12 3</description>
+    </item>
+    
+  </channel>
+</rss>

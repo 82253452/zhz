@@ -1,0 +1,13 @@
+version: "3"
+networks:
+  default:
+    external:
+      name: default-network
+services:
+  zhz:
+    container_name: zhz
+    image: swr.cn-north-1.myhuaweicloud.com/a82253452/zhz
+    labels:
+      - traefik.http.routers.zhz-http.rule=Host(`zhihuizhan.net`)
+      - traefik.http.routers.zhz.rule=Host(`zhihuizhan.net`)
+      - traefik.http.routers.zhz.tls.certresolver=mytlschallenge
